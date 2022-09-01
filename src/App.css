@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app,
+#root,
+html,
+body {
+  height: 100% auto !important;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  background-color: #001529;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background-color: #001529;
+  padding: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.navbar {
+  flex: 0.2 !important;
+}
+
+.main {
+  flex: 0.8;
+  height: 100%;
+  /* background-color: #0f172a; */
+}
+
+.routes {
+  padding: 2rem;
+  height: 100%;
+}
+
+.crypto-card-container {
+  height: 100%;
+}
+
+.ant-menu-item.ant-menu-item-selected {
+  border-radius: 5px;
+}
+
+.logo-container .ant-typography {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.footer {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+.home-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crypto-image {
+  max-width: 2.5rem;
+}
+
+.crypto-card {
+  border-radius: 0.3rem !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.search-crypto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.search-crypto input {
+  width: 15rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 968px) {
+  .nav-container {
+    display: none;
+  }
+}
