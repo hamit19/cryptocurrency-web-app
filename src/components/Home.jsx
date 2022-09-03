@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import millify from "millify";
 import { Col, Row, Typography, Statistic } from "antd";
 import { Link } from "react-router-dom";
-import { useGetCryptosQuery } from "../services/CryptoAPI";
+import { useGetCryptosQuery } from "../services/cryptoAPI";
 
 import { Cryptocurrencies, News } from "../components/index";
 

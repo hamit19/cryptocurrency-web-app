@@ -17,6 +17,11 @@ body {
   background-color: #001529;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+}
+
 .nav-container {
   position: fixed;
   top: 0;
@@ -92,8 +97,46 @@ body {
   border-radius: 0.2rem;
 }
 
+.news-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-card {
+  position: relative;
+  height: 334px;
+  border-radius: 0.5rem !important;
+}
+
+.provider-info-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.provider-container {
+  width: 90%;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.news-card p {
+  height: 4rem;
+  padding: 0.5rem;
+  color: #333;
+}
+
+.news-image-container .image-wrapper img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
 @media screen and (max-width: 968px) {
-  .nav-container {
+  .navbar {
     display: none;
   }
 }
