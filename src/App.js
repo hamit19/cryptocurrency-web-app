@@ -9,7 +9,7 @@ import {
   Cryptocurrencies,
   CryptoDetails,
   News,
-  Exchanges,
+  // Exchanges,
 } from "./components/index";
 
 const App = () => {
@@ -30,7 +30,6 @@ const App = () => {
               />
               <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
               <Route exact path="/news" element={<News />} />
-              <Route exact path="/exchanges" element={<Exchanges />} />
             </Routes>
           </div>
         </Layout>
